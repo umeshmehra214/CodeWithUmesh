@@ -28,7 +28,7 @@ html, body{
     height: 100%;
     width: 67%;
     background-color: rgb(21, 164, 220);
-    background-image: url('./model.jpg');
+    background-image: url('./img_1.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -69,7 +69,7 @@ html, body{
     height: 400px;
     width: 300px;
     /* background-color: red; */
-    background-image: url('model2.jpg');
+    background-image: url('./img_2.jpg');
     background-size: cover;
     background-position: center;
     position: absolute;
