@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    /* background-color: hsla(337, 81%, 78%, 0.95); */
+    background-color: #536676da;
+    display: flex;
+}
+
+.part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: orange; */
+}
+
+.part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(21, 164, 220);
+    background-image: url('./model.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.186);
+}
+
+.part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: green; */
+}
+
+.text-div{
+    /* height: 300px; */
+    width: 400px;
+    /* background-color: red; */
+    position: absolute;
+    left: 7%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.text-div h1{
+    font-size: 95px;
+    letter-spacing: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    line-height: 78px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.small-img-div{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    background-image: url('model2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+
+.vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -42.3%;
+    top: 0.5%;
+    transform-origin: 0% 0%;
+    /* width: 100%;
+    /* background-color: red; */
+}
+.vertical-text h1 {
+    font-size: 56px;
+    font-weight: 900;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: transparent;
+    font-family: 'Roboto', sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+} 
+
+.nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 8%;
+    left: 7%;
+    width: 350px;
+}
+
+.nav img{
+    height: 60px;
+    color: #fff;
+}
+
+.nav h5{
+    font-size: 20px;
+    color: #fff;
+    font-family: gilroy;
+}
